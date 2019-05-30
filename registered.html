@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/commonStyleSheet.css"/>
+	<link rel="stylesheet" type="text/css" href="css/registered.css"/>
+	<body>
+		<!--顶部-->
+		<div id="logo">
+			<h1>
+				<a href=""><img src="img/registered/2c6ce4ec89967ee42ef77fb0b524fc0c.png"/></a>
+			</h1>
+			<div class="goto_login">
+				<span>我已经注册,现在就</span>
+				<a href="login.html">登录</a>
+			</div>
+		</div>
+		<!--注册-->
+		<div id="registered_div">
+			<div class="registered_wrap">
+				<div class="registered">
+					<div class="registered_left">
+						<div class="registered_left_top"><span>手机注册</span></div>
+						<div class="user_input">
+							<dl class="form_phone">
+								<dt>手机号:</dt>
+								<dd><input type="text" id="phoneNum" placeholder="请输入手机号码" maxlength="11" value="18319658961"/></dd>
+								<div class="error"><i></i></div> <!--输入框为空或者手机号格式错误提示-->
+							</dl>
+							<div class="send_msg">
+								<i></i>点击发送验证码
+							</div>
+							<div class="agreement">
+								<input type="checkbox" id="agree" />
+								<span>阅读并同意</span>
+								<a href="">《服务协议》</a>
+								<div class="error"><i></i>请勾选服务协议</div>
+							</div>
+						</div>
+						<div class="set_pass">
+							<span class="tip">短信已发送至135****1079，请在10分钟内完成验证。</span>
+							<dl class="input_msg">
+								<dt>验证码:</dt>
+								<dd><input type="text" id="phoneCode" placeholder="输入6位短信验证码" maxlength="6"/></dd>
+								<div class="error"><i></i>短信验证码成功</div>
+							</dl>
+							<div class="next_time">
+								<p class="next_time">您可以在<span>24</span>秒后再次获取动态码</p>
+							</div>
+							<dl class="password">
+								<dt>设置密码:</dt>
+								<dd><input type="password" id="setPass" /></dd>
+								<div class="error"><i></i></div>
+							</dl>
+							<dl class="password_agin">
+								<dt>确认密码:</dt>
+								<dd><input type="password" id="surePass" /></dd>
+								<div class="error"><i></i></div>
+							</dl>
+							<div class="registered_now">
+								立即注册
+							</div>
+							<div class="logo_success">
+								<p>恭喜注册成功</p>
+								<p>2s后跳转到主页</p>
+							</div>
+						</div>
+					</div>
+					<div class="registered_right">
+						<h4>注册之后您可以</h4>
+						<ul class="power_ul">
+							<li><span class="icon"></span>购买商品支付订单</li>
+							<li><span class="icon"></span>收藏商品收藏店铺</li>
+							<li><span class="icon"></span>安全交易诚信无忧</li>
+							<li><span class="icon"></span>会员等级享受特权</li>
+							<li><span class="icon"></span>交易评价站外分享</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer">
+			<p class="about_us">
+				<a href="">首页</a>
+				<i>|</i>
+				<a href="">招商合作</a>
+				<i>|</i>
+				<a href="">关于央广购物</a>
+				<i>|</i>
+				<a href="">联系我们</a>
+				<i>|</i>
+				<a href="">成为供应商</a>
+			</p>
+			<p class="serial_number">
+				<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011502003547">京公网安备：11011502003547</a>&nbsp;&nbsp;
+				<a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备19000295号</a>&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>&nbsp;&nbsp;
+    			<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>&nbsp;&nbsp;
+    			<a target="_blank" href="https://cnr-xiaopin.oss-cn-beijing.aliyuncs.com/certificate/%E5%89%AF%E6%9C%AC.jpg">营业执照</a>
+			</p>
+			<p>Copyright<em style="font-family:Arial,Verdana; margin:0 4px">©</em>2010-2019 cnrmall.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;服务热线：4008-518-518</p>
+			<ul class="safety_icon">
+				<li>
+					<a href=""> </a>
+				</li>
+				<li>
+					<a href=""> </a>
+				</li>
+				<li>
+					<a href=""> </a>
+				</li>
+				<li>
+					<a href=""> </a>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/localStorage.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/registered.js" type="text/javascript" charset="utf-8"></script>
+</html>

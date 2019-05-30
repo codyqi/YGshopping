@@ -1,0 +1,18 @@
+{
+	"code": 200,
+	"msg": "ok",
+	"result":{
+		"data":[
+			{"pid":"601","pname":"花印户外清润防晒喷雾SPF30PA+++ 60g","images":"img/index/601-1.png","price":235.00},
+			{"pid":"602","pname":"虎镖洋甘菊护肤止痒花露水","images":"img/index/601-2.png","price":26.00},
+			{"pid":"603","pname":"花印水漾洁净洗面乳150g","images":"img/index/601-3.png","price":49.00},
+			{"pid":"604","pname":"台塑生医 玻尿酸晶透恒润饱水面膜（5片/装）","images":"img/index/601-4.png","price":79.00},
+			{"pid":"605","pname":"西班牙PARDO黄金手工皂","images":"img/index/601-5.png","price":378.00},
+			{"pid":"606","pname":"貂蝉玫瑰纯露面膜 补水保湿 懒人免洗 提亮肤色 新品国货面膜","images":"img/index/601-6.png","price":18.00},
+			{"pid":"607","pname":"东盛祛痘净颜精华 快速淡化痘印痘坑收缩毛孔5ml","images":"img/index/601-7.png","price":19.90},
+			{"pid":"608","pname":"LACELLONI莱科妮多肽精华液","images":"img/index/601-8.png","price":598.00},
+			{"pid":"609","pname":"莱科妮水玉光粉凝霜独供组","images":"img/index/601-9.png","price":278.00},
+			{"pid":"610","pname":"华兴牌抑菌去渍防蛀固齿蜂胶牙膏150克/支","images":"img/index/601-10.png","price":38.00}
+		]
+	}
+}

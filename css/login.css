@@ -1,0 +1,233 @@
+#logo{
+	width: 1000px;
+	height: 80px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#logo h1{
+	display: block;
+	float: left;
+}
+#logo img{
+	width: 240px;
+	height: 68px;
+	margin-top: 6px;
+}
+.goto_login a{
+	color: #06C;
+}
+#logo span{
+	float: left;
+	width: 160px;
+	font-size: 24px;
+	color: #000000;
+	margin-top: 30px;
+}
+.warning{
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-top: 2px solid #E6E6E6;
+	background: #fff8f0;
+	color: #999;
+}
+.warning i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background: url(../img/login/login_pic.png)no-repeat -150px -250px;
+}
+.login_div{
+	width: 100%;
+	height: 480px;
+	background: #e93854;
+}
+.login_wrap{
+	width: 1000px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../img/login/login_img.jpg)1000px 480px;
+}
+.user_infor{
+	width: 346px;
+	height: 362px;
+	float: right;
+	margin-top: 10px;
+	background: white;
+}
+.login_way{
+	width: 100%;
+	height: 54px;
+	border-bottom: 1px solid #F4F4F4; 
+}
+.login_way i{
+	font-style: normal;
+	font-size: 18px;
+	line-height: 54px;
+	color: #E7E7E7;
+}
+.login_way span{
+	display: block;
+	width: 169px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 54px;
+	color: #666;
+}
+.login_way .user{
+	float: left;
+	font-weight: bold;
+	color: #E4393C;
+}
+.phone{
+	float: right;
+}
+.login_way span:hover{
+	color: #E4393C;
+}
+.name_pass{
+	width: 306px;
+	height: 194px;
+	margin: 0 auto;
+}
+.name_pass .uname, .name_pass .upass{
+	width: 304px;
+	height: 38px;
+	position: relative;
+	margin-top: 20px;
+	border: 1px solid #bdbdbd;
+}
+#username, #password{
+	width: 245px;
+	height: 22px;
+	margin: 8px 0 8px 52px;
+	font-size: 14px;
+}
+.uname label, .upass label{
+	display: block;
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	border-right: 1px solid #bdbdbd;
+	background: url(../img/login/login_pic.png)no-repeat;
+}
+.uname label{
+	background-position: 0 -110px;
+}
+.upass label{
+	background-position: -48px -110px;
+}
+.auto_login_wrap{
+	margin: 26px 0 13px 0;
+}
+.auto_login{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.forget{
+	float: right;
+}
+.login_btn{
+	width: 306px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #16bd53;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #666666;
+	position: relative;
+}
+.login_btn:hover{
+	cursor: pointer;
+}
+.login_btn i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/login/slider-click.png);
+	position: absolute;
+	top: 10px;
+	left: 25px;
+}
+.login_bottom{
+	width: 306px;
+	height: 50px;
+	margin: 25px auto;
+	border-top: 1px solid #E6E6E6;
+	box-sizing: border-box;
+	padding-top: 16px;
+}
+.login_bottom i{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	background: url(../img/login/login_pic.png)no-repeat;
+}
+.wechat{
+	float: left;
+}
+.wechat i{
+	background-position: -120px -250px;
+	vertical-align: bottom;
+}
+.wechat span{
+	margin-right: 10px;
+}
+.to_registered i{
+	background-position: -180px -250px;
+	vertical-align: middle;
+}
+.to_registered{
+	float: right;
+	color: #b61d1d;
+	font-size: 14px;
+}
+
+
+#footer{
+	width: 100%;
+	height: 190px;
+	background: #343a3a;
+	overflow: hidden;
+	margin-top: 140px;
+}
+#footer a{
+	color: #eeeeee;	
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+}
+#footer p{
+	text-align: center;
+	margin-top: 15px;
+	color: #eeeeee;	
+}
+.about_us i{
+	font-style: normal;
+	margin: 0 .5em; 
+	color: #eeeeee;	
+}
+.safety_icon{
+	width: 512px;
+	margin: 18px auto;
+}
+.safety_icon li{
+	width: 108px;
+	height: 40px;
+	margin-right: 20px;
+	float: left;
+	background: url(../img/yangguang-footer.png)no-repeat;
+}
+.safety_icon li:nth-child(2){
+	background-position: -244px 0;
+}
+.safety_icon li:nth-child(3){
+	background-position: -366px 0;
+}
+.safety_icon li:nth-child(4){
+	background-position: -488px 0;
+}
